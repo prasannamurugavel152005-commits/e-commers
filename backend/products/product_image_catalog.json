@@ -1,0 +1,970 @@
+{
+  "Electronics": {
+    "Wireless Headphones": [
+      {
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Headphones_%2856330%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Headphones_(56330).jpg",
+        "image_attribution": "17mdnasim89",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Headphones-2852336_640.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Headphones-2852336_640.png",
+        "image_attribution": "Pixabay User",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Audio-Technica_Headphones_%28Custom_Earpads%29.jpg/960px-Audio-Technica_Headphones_%28Custom_Earpads%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Audio-Technica_Headphones_(Custom_Earpads).jpg",
+        "image_attribution": "P0lykey",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Oldest_Headphones_Siemans_1893.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Oldest_Headphones_Siemans_1893.png",
+        "image_attribution": "William Henry Preece, Arthur James Stubbs",
+        "image_license": "Public domain",
+        "image_license_url": ""
+      }
+    ],
+    "Bluetooth Speaker": [
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Bluetooth_speaker_NBY-18_P8041745.jpg/960px-Bluetooth_speaker_NBY-18_P8041745.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Bluetooth_speaker_NBY-18_P8041745.jpg",
+        "image_attribution": "Alexxx1979",
+        "image_license": "CC BY-SA 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/JBL_Bluetooth_speaker%2C_Winschoten_%282019%29_10.jpg/960px-JBL_Bluetooth_speaker%2C_Winschoten_%282019%29_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:JBL_Bluetooth_speaker,_Winschoten_(2019)_10.jpg",
+        "image_attribution": "Donald Trung Quoc Don (Chữ Hán: 徵國單) - Wikimedia Commons - © CC BY-SA 4.0 International.(Want to use this image?)Original publication 📤: --Donald Trung 『徵國單』 (No Fake News 💬) (WikiProject Numismatics 💴) (Articles 📚) 20:19, 29 October 2019 (UTC)",
+        "image_license": "CC BY-SA 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/JBL_Bluetooth_speaker%2C_Winschoten_%282019%29_02.jpg/960px-JBL_Bluetooth_speaker%2C_Winschoten_%282019%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:JBL_Bluetooth_speaker,_Winschoten_(2019)_02.jpg",
+        "image_attribution": "Donald Trung Quoc Don (Chữ Hán: 徵國單) - Wikimedia Commons - © CC BY-SA 4.0 International.(Want to use this image?)Original publication 📤: --Donald Trung 『徵國單』 (No Fake News 💬) (WikiProject Numismatics 💴) (Articles 📚) 20:19, 29 October 2019 (UTC)",
+        "image_license": "CC BY-SA 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/JBL_Flip_bluetooth_speaker.jpg/960px-JBL_Flip_bluetooth_speaker.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:JBL_Flip_bluetooth_speaker.jpg",
+        "image_attribution": "Gpkp",
+        "image_license": "CC BY-SA 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    ],
+    "Smart Watch": [
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Smartwatch-828786.jpg/960px-Smartwatch-828786.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Smartwatch-828786.jpg",
+        "image_attribution": "Crew",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/PineTime_smartwatch.jpg/960px-PineTime_smartwatch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:PineTime_smartwatch.jpg",
+        "image_attribution": "Unnerving duck",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Huawei_Smartwatch_%28Band_4%29.jpg/960px-Huawei_Smartwatch_%28Band_4%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Huawei_Smartwatch_(Band_4).jpg",
+        "image_attribution": "TheArchivistMan",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Infiniti_2.0_smartwatch.jpg/960px-Infiniti_2.0_smartwatch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Infiniti_2.0_smartwatch.jpg",
+        "image_attribution": "The Final Checklist",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    ],
+    "Digital Camera": [
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Olympus_C-960ZOOM_compact_digital_camera_-opened.jpg/960px-Olympus_C-960ZOOM_compact_digital_camera_-opened.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Olympus_C-960ZOOM_compact_digital_camera_-opened.jpg",
+        "image_attribution": "Mister rf",
+        "image_license": "CC BY-SA 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/A_teacher_of_Baozhong_Junior_High_School_photographing_with_a_compact_digital_camera_20120330.jpg/960px-A_teacher_of_Baozhong_Junior_High_School_photographing_with_a_compact_digital_camera_20120330.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:A_teacher_of_Baozhong_Junior_High_School_photographing_with_a_compact_digital_camera_20120330.jpg",
+        "image_attribution": "褒忠國中 雲端網",
+        "image_license": "CC BY 2.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/2.0"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Olympus_C-960ZOOM_compact_digital_camera.jpg/960px-Olympus_C-960ZOOM_compact_digital_camera.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Olympus_C-960ZOOM_compact_digital_camera.jpg",
+        "image_attribution": "Mister rf",
+        "image_license": "CC BY-SA 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Olympus_C-960ZOOM_compact_digital_camera_-_back_view.jpg/960px-Olympus_C-960ZOOM_compact_digital_camera_-_back_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Olympus_C-960ZOOM_compact_digital_camera_-_back_view.jpg",
+        "image_attribution": "Mister rf",
+        "image_license": "CC BY-SA 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    ],
+    "Portable Projector": [
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Video_projector_SHARP_notevision_5_XG-NV5XE_tri_LCD_optical_sub-assembly.jpg/960px-Video_projector_SHARP_notevision_5_XG-NV5XE_tri_LCD_optical_sub-assembly.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Video_projector_SHARP_notevision_5_XG-NV5XE_tri_LCD_optical_sub-assembly.jpg",
+        "image_attribution": "Fil22plm",
+        "image_license": "CC BY-SA 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Projectiondesign_%28Barco_Fredrikstad%29_video_projector_at_HighEnd-2009_%283556283833%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Projectiondesign_(Barco_Fredrikstad)_video_projector_at_HighEnd-2009_(3556283833).jpg",
+        "image_attribution": "Christian Herzog",
+        "image_license": "CC BY 2.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/2.0"
+      },
+      {
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Sony_portable_CRT_projector.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Sony_portable_CRT_projector.jpg",
+        "image_attribution": "Takashi Sogabe",
+        "image_license": "Public domain",
+        "image_license_url": ""
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Sony_Portable_Ultra_Short_Throw_Projector_%2826089152123%29.jpg/960px-Sony_Portable_Ultra_Short_Throw_Projector_%2826089152123%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Sony_Portable_Ultra_Short_Throw_Projector_(26089152123).jpg",
+        "image_attribution": "Maurizio Pesce from Milan, Italia",
+        "image_license": "CC BY 2.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/2.0"
+      }
+    ],
+    "Power Bank": [
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Itel_power_bank_Nigeria.jpg/960px-Itel_power_bank_Nigeria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Itel_power_bank_Nigeria.jpg",
+        "image_attribution": "Verified legend",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/STW_shared_power_bank.jpg/960px-STW_shared_power_bank.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:STW_shared_power_bank.jpg",
+        "image_attribution": "STW88322",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/IMG_of_power_bank.jpg/960px-IMG_of_power_bank.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:IMG_of_power_bank.jpg",
+        "image_attribution": "حسين ادم حسين",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Fuelrod_Portable_Charger_%2830130856918%29.jpg/960px-Fuelrod_Portable_Charger_%2830130856918%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Fuelrod_Portable_Charger_(30130856918).jpg",
+        "image_attribution": "Dawn Endico from Menlo Park, California",
+        "image_license": "CC BY-SA 2.0",
+        "image_license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    ],
+    "USB-C Hub": [
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/2023_Hub_USB_2.0.jpg/960px-2023_Hub_USB_2.0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:2023_Hub_USB_2.0.jpg",
+        "image_attribution": "Jacek Halicki",
+        "image_license": "CC BY-SA 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/2023_Hub_USB_2.0_%281%29.jpg/960px-2023_Hub_USB_2.0_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:2023_Hub_USB_2.0_(1).jpg",
+        "image_attribution": "Jacek Halicki",
+        "image_license": "CC BY-SA 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/46/USB_hub.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:USB_hub.jpg",
+        "image_attribution": "The original uploader was Ds13 at English Wikipedia. Later versions were uploaded by Marcan, Asim18 at en.wikipedia.",
+        "image_license": "CC BY-SA 2.5",
+        "image_license_url": "https://creativecommons.org/licenses/by-sa/2.5"
+      },
+      {
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/4port-usb-hub-bus-powered.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:4port-usb-hub-bus-powered.jpg",
+        "image_attribution": "PrimeEvil at de.wikipedia",
+        "image_license": "CC BY-SA 3.0",
+        "image_license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    ],
+    "Desk Microphone": [
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Shure_SM57_microphone.jpg/960px-Shure_SM57_microphone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Shure_SM57_microphone.jpg",
+        "image_attribution": "E bailey",
+        "image_license": "CC BY-SA 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Exquisite-microphone_Crop.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Exquisite-microphone_Crop.png",
+        "image_attribution": "Unknown",
+        "image_license": "GPL",
+        "image_license_url": "http://www.gnu.org/licenses/gpl.html"
+      },
+      {
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Exquisite-microphone.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Exquisite-microphone.png",
+        "image_attribution": "Wikimedia Commons contributor",
+        "image_license": "GPL",
+        "image_license_url": "http://www.gnu.org/licenses/gpl.html"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Microphone_iMac.jpg/960px-Microphone_iMac.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Microphone_iMac.jpg",
+        "image_attribution": "Wikimedia Commons contributor",
+        "image_license": "CC BY 3.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/3.0"
+      }
+    ]
+  },
+  "Home": {
+    "Table Lamp": [
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Table_lamp_MET_210575.jpg/960px-Table_lamp_MET_210575.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Table_lamp_MET_210575.jpg",
+        "image_attribution": "Wikimedia Commons contributor",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Table_lamp_MET_DP259087.jpg/960px-Table_lamp_MET_DP259087.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Table_lamp_MET_DP259087.jpg",
+        "image_attribution": "Tiffany Studios",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Table_Lamp_MET_DT4342.jpg/960px-Table_Lamp_MET_DT4342.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Table_Lamp_MET_DT4342.jpg",
+        "image_attribution": "Fulper Pottery Co.",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Table_lamp_MET_DP254460.jpg/960px-Table_lamp_MET_DP254460.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Table_lamp_MET_DP254460.jpg",
+        "image_attribution": "Tiffany Studios",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    ],
+    "Knit Throw Blanket": [
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/This_inviting_bedroom_features_a_comfortable_bed_with_fluffy_pillows_and_a_cozy_throw_blanket.jpg/960px-This_inviting_bedroom_features_a_comfortable_bed_with_fluffy_pillows_and_a_cozy_throw_blanket.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:This_inviting_bedroom_features_a_comfortable_bed_with_fluffy_pillows_and_a_cozy_throw_blanket.jpg",
+        "image_attribution": "Shixart1985",
+        "image_license": "CC BY 2.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/2.0"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/A_native_dye_auto_seat_throw_or_small_blanket._Southern_Navajo_Agency%2C_1933_-_NARA_-_298593.jpg/960px-A_native_dye_auto_seat_throw_or_small_blanket._Southern_Navajo_Agency%2C_1933_-_NARA_-_298593.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:A_native_dye_auto_seat_throw_or_small_blanket._Southern_Navajo_Agency,_1933_-_NARA_-_298593.jpg",
+        "image_attribution": "Unknown authorUnknown author or not provided",
+        "image_license": "Public domain",
+        "image_license_url": ""
+      },
+      {
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/94/A_native_dye_auto_seat_throw_or_small_blanket._Southern_Navajo_Agency%2C_1933_-_DPLA_-_88f360ff773c2774b2877a97acae235f.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:A_native_dye_auto_seat_throw_or_small_blanket._Southern_Navajo_Agency,_1933_-_DPLA_-_88f360ff773c2774b2877a97acae235f.gif",
+        "image_attribution": "Department of the Interior. Office of Indian Affairs. Salt Lake City Extension and Credit Office. ca. 1931-ca. 1946",
+        "image_license": "Public domain",
+        "image_license_url": ""
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/EFTA00000300_-_Bedroom_with_purple_walls_a_colorful_headboard_white_bedding_and_a_zebra-patterned_throw_blanket.jpg/960px-EFTA00000300_-_Bedroom_with_purple_walls_a_colorful_headboard_white_bedding_and_a_zebra-patterned_throw_blanket.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:EFTA00000300_-_Bedroom_with_purple_walls_a_colorful_headboard_white_bedding_and_a_zebra-patterned_throw_blanket.jpg",
+        "image_attribution": "Federal Bureau of Investigation",
+        "image_license": "Public domain",
+        "image_license_url": ""
+      }
+    ],
+    "Ceramic Vase": [
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Preclassic_Central_Plateau_Ceramic_Anthropomorphic_Vase.jpg/960px-Preclassic_Central_Plateau_Ceramic_Anthropomorphic_Vase.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Preclassic_Central_Plateau_Ceramic_Anthropomorphic_Vase.jpg",
+        "image_attribution": "Gary Todd",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Maya_Late_Classic_Polychrome_Ceramic_Vase%2C_13cm.jpg/960px-Maya_Late_Classic_Polychrome_Ceramic_Vase%2C_13cm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Maya_Late_Classic_Polychrome_Ceramic_Vase,_13cm.jpg",
+        "image_attribution": "Gary Todd",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Bernardo_Polo_-_Still_Life_of_Artichokes%2C_Cherries_and_Peaches_in_a_Ceramic_Bowl_with_a_Vase.jpg/960px-Bernardo_Polo_-_Still_Life_of_Artichokes%2C_Cherries_and_Peaches_in_a_Ceramic_Bowl_with_a_Vase.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Bernardo_Polo_-_Still_Life_of_Artichokes,_Cherries_and_Peaches_in_a_Ceramic_Bowl_with_a_Vase.jpg",
+        "image_attribution": "Bernardo Polo",
+        "image_license": "Public domain",
+        "image_license_url": ""
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Jaguar_Vase%2C_Chorotega%2C_precolonial_era_ceramic%2C_Anchorage_Museum.jpg/960px-Jaguar_Vase%2C_Chorotega%2C_precolonial_era_ceramic%2C_Anchorage_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Jaguar_Vase,_Chorotega,_precolonial_era_ceramic,_Anchorage_Museum.jpg",
+        "image_attribution": "Hiart",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    ],
+    "Accent Cushion Set": [
+      {
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Cushion_Cover_MET_59672.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Cushion_Cover_MET_59672.jpg",
+        "image_attribution": "Wikimedia Commons contributor",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Cushion_Cover_MET_5584.jpg/960px-Cushion_Cover_MET_5584.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Cushion_Cover_MET_5584.jpg",
+        "image_attribution": "Wikimedia Commons contributor",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Cushion_Cover_MET_3863.jpg/960px-Cushion_Cover_MET_3863.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Cushion_Cover_MET_3863.jpg",
+        "image_attribution": "Wikimedia Commons contributor",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Cushion_Cover_MET_3860.jpg/960px-Cushion_Cover_MET_3860.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Cushion_Cover_MET_3860.jpg",
+        "image_attribution": "Wikimedia Commons contributor",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    ],
+    "Wall Clock": [
+      {
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Wall_clock.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Wall_clock.png",
+        "image_attribution": "Wikimedia Commons contributor",
+        "image_license": "CC BY-SA 3.0",
+        "image_license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Wall_clock%2C_Kappauer_style.jpg/960px-Wall_clock%2C_Kappauer_style.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Wall_clock,_Kappauer_style.jpg",
+        "image_attribution": "Cornelius Brembt / Barthélemy Namur",
+        "image_license": "Public domain",
+        "image_license_url": ""
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Wall_clock_MET_194494.jpg/960px-Wall_clock_MET_194494.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Wall_clock_MET_194494.jpg",
+        "image_attribution": "John Jones",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Wall_clock_%28cartel%29_MET_46328.jpg/960px-Wall_clock_%28cartel%29_MET_46328.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Wall_clock_(cartel)_MET_46328.jpg",
+        "image_attribution": "Creator:Pierre-Philippe Barat",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    ],
+    "Storage Basket": [
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Storage_basket_MET_DP-15059-008.jpg/960px-Storage_basket_MET_DP-15059-008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Storage_basket_MET_DP-15059-008.jpg",
+        "image_attribution": "Wikimedia Commons contributor",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Lidded_Storage_Basket_MET_DT259444.jpg/960px-Lidded_Storage_Basket_MET_DT259444.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Lidded_Storage_Basket_MET_DT259444.jpg",
+        "image_attribution": "Wikimedia Commons contributor",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Lidded_Storage_Basket_MET_TR.165.3a%2Cb.2011_a.jpg/960px-Lidded_Storage_Basket_MET_TR.165.3a%2Cb.2011_a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Lidded_Storage_Basket_MET_TR.165.3a,b.2011_a.jpg",
+        "image_attribution": "Wikimedia Commons contributor",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Lidded_Storage_Basket_MET_TR.165.3a%2Cb.2011_b.jpg/960px-Lidded_Storage_Basket_MET_TR.165.3a%2Cb.2011_b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Lidded_Storage_Basket_MET_TR.165.3a,b.2011_b.jpg",
+        "image_attribution": "Wikimedia Commons contributor",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    ],
+    "Bedside Organizer": [
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Bedside_Table_MET_DP282021.jpg/960px-Bedside_Table_MET_DP282021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Bedside_Table_MET_DP282021.jpg",
+        "image_attribution": "Jean Dunand",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Bedside_table_%28table_de_nuit%29_MET_DP113125.jpg/960px-Bedside_table_%28table_de_nuit%29_MET_DP113125.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Bedside_table_(table_de_nuit)_MET_DP113125.jpg",
+        "image_attribution": "Bernard van Risenburgh",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Bedside_table_%28table_de_nuit%29_MET_DP113126.jpg/960px-Bedside_table_%28table_de_nuit%29_MET_DP113126.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Bedside_table_(table_de_nuit)_MET_DP113126.jpg",
+        "image_attribution": "Bernard van Risenburgh",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Bedside_Table_MET_DP295955.jpg/960px-Bedside_Table_MET_DP295955.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Bedside_Table_MET_DP295955.jpg",
+        "image_attribution": "Jean Dunand",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    ],
+    "Scented Candle Set": [
+      {
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Unique_Quality_of_Scented_DIY_Candles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Unique_Quality_of_Scented_DIY_Candles.jpg",
+        "image_attribution": "NielchaAnnB",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Mulled_cider_scented_candle.jpg/960px-Mulled_cider_scented_candle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Mulled_cider_scented_candle.jpg",
+        "image_attribution": "JJonahJackalope",
+        "image_license": "CC BY-SA 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/%E2%80%9C%E2%80%98Tis_the_Sea-Sun_in_Sydney%E2%80%9D_Yankee_Candle_scent.jpg/960px-%E2%80%9C%E2%80%98Tis_the_Sea-Sun_in_Sydney%E2%80%9D_Yankee_Candle_scent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:%E2%80%9C%E2%80%98Tis_the_Sea-Sun_in_Sydney%E2%80%9D_Yankee_Candle_scent.jpg",
+        "image_attribution": "DannonCool",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Scented_candle_candlelight.jpg/960px-Scented_candle_candlelight.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Scented_candle_candlelight.jpg",
+        "image_attribution": "Csiiiyu",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    ]
+  },
+  "Fashion": {
+    "Everyday Backpack": [
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Hatsune_Miku_backpack.jpg/960px-Hatsune_Miku_backpack.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Hatsune_Miku_backpack.jpg",
+        "image_attribution": "Fumikas Sagisavas",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Military_backpack_01.jpg/960px-Military_backpack_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Military_backpack_01.jpg",
+        "image_attribution": "Pegasovagante",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Wenger_backpack.jpg/960px-Wenger_backpack.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Wenger_backpack.jpg",
+        "image_attribution": "Sir Tragedy",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Turkish_Army_Medical_backpack.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Turkish_Army_Medical_backpack.jpg",
+        "image_attribution": "National Musuem of American History",
+        "image_license": "Public domain",
+        "image_license_url": ""
+      }
+    ],
+    "Classic Minimal Watch": [
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Self-winding_wristwatch_%28transparent_backside%29.jpg/960px-Self-winding_wristwatch_%28transparent_backside%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Self-winding_wristwatch_(transparent_backside).jpg",
+        "image_attribution": "Petar Milošević",
+        "image_license": "CC BY-SA 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Cadisen_C8173_automatic_wristwatch.jpg/960px-Cadisen_C8173_automatic_wristwatch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Cadisen_C8173_automatic_wristwatch.jpg",
+        "image_attribution": "Francis Flinch",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Cadisen_C8173_automatic_wristwatch_2.jpg/960px-Cadisen_C8173_automatic_wristwatch_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Cadisen_C8173_automatic_wristwatch_2.jpg",
+        "image_attribution": "Francis Flinch",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Fossil_wristwatch_with_white_background.jpg/960px-Fossil_wristwatch_with_white_background.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Fossil_wristwatch_with_white_background.jpg",
+        "image_attribution": "Cvmontuy",
+        "image_license": "CC BY-SA 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    ],
+    "Canvas Weekend Bag": [
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Qantas_service_director_uniform_%281987%29_and_duffel_bag_%281980s%29.jpg/960px-Qantas_service_director_uniform_%281987%29_and_duffel_bag_%281980s%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Qantas_service_director_uniform_(1987)_and_duffel_bag_(1980s).jpg",
+        "image_attribution": "Votpuske",
+        "image_license": "CC BY 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Vintage_Duffel_Bag_%2815550907613%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Vintage_Duffel_Bag_(15550907613).jpg",
+        "image_attribution": "Carl Lender",
+        "image_license": "CC BY 2.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/2.0"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Leather_duffel_bag_on_the_ground_%28Unsplash%29.jpg/960px-Leather_duffel_bag_on_the_ground_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Leather_duffel_bag_on_the_ground_(Unsplash).jpg",
+        "image_attribution": "Harsh Jadav hpkofficial",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Leather_duffel_bag_on_the_ground.jpg/960px-Leather_duffel_bag_on_the_ground.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Leather_duffel_bag_on_the_ground.jpg",
+        "image_attribution": "Harsh Jadav",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    ],
+    "Cloud Knit Sneakers": [
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Diadora_CAMARO_M2_sneaker.jpg/960px-Diadora_CAMARO_M2_sneaker.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Diadora_CAMARO_M2_sneaker.jpg",
+        "image_attribution": "WorldTravleerAndPhotoTaker",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Rick_Owens_Geobasket_sneaker.jpg/960px-Rick_Owens_Geobasket_sneaker.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Rick_Owens_Geobasket_sneaker.jpg",
+        "image_attribution": "Reddeleon",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Sneaker.png/960px-Sneaker.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Sneaker.png",
+        "image_attribution": "I AM GIFTY",
+        "image_license": "CC BY 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Professional_Sneakers_-_Sneakers_for_hostesses%2C_pilots_and_other_professionals._Comfortable_sneakers_produced_in_leather_inside_and_outside.jpg/960px-Professional_Sneakers_-_Sneakers_for_hostesses%2C_pilots_and_other_professionals._Comfortable_sneakers_produced_in_leather_inside_and_outside.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Professional_Sneakers_-_Sneakers_for_hostesses,_pilots_and_other_professionals._Comfortable_sneakers_produced_in_leather_inside_and_outside.jpg",
+        "image_attribution": "Ricardovfo",
+        "image_license": "CC BY-SA 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    ],
+    "Polarized Sunglasses": [
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Mezmay%2C_Sports_sunglasses%2C_Reflective_mirrored_sunglasses%2C_Russia.jpg/960px-Mezmay%2C_Sports_sunglasses%2C_Reflective_mirrored_sunglasses%2C_Russia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Mezmay,_Sports_sunglasses,_Reflective_mirrored_sunglasses,_Russia.jpg",
+        "image_attribution": "Vyacheslav Argenberg",
+        "image_license": "CC BY 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Mezmay%2C_Sports_sunglasses%2C_Black_sunglasses%2C_Russia.jpg/960px-Mezmay%2C_Sports_sunglasses%2C_Black_sunglasses%2C_Russia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Mezmay,_Sports_sunglasses,_Black_sunglasses,_Russia.jpg",
+        "image_attribution": "Vyacheslav Argenberg",
+        "image_license": "CC BY 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Toni_Frissell_in_sunglasses_at_ski_resort.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Toni_Frissell_in_sunglasses_at_ski_resort.jpg",
+        "image_attribution": "Unknown authorUnknown author",
+        "image_license": "Public domain",
+        "image_license_url": ""
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/DE-SUNGLASSES.jpg/960px-DE-SUNGLASSES.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:DE-SUNGLASSES.jpg",
+        "image_attribution": "DE-SUNGLASSES",
+        "image_license": "Public domain",
+        "image_license_url": ""
+      }
+    ],
+    "Cotton Overshirt": [
+      {
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Premium_Pure_Cotton_Shirts_and_Trousers_for_Men.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Premium_Pure_Cotton_Shirts_and_Trousers_for_Men.jpg",
+        "image_attribution": "Prashasya07",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Handloom_Cotton_Tea_Dyed_Shirt.jpg/960px-Handloom_Cotton_Tea_Dyed_Shirt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Handloom_Cotton_Tea_Dyed_Shirt.jpg",
+        "image_attribution": "Gautam Daniel",
+        "image_license": "CC BY 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/A_LCA_of_a_Cotton_T-Shirt_%285622182415%29.jpg/960px-A_LCA_of_a_Cotton_T-Shirt_%285622182415%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:A_LCA_of_a_Cotton_T-Shirt_(5622182415).jpg",
+        "image_attribution": "University of Michigan School for Environment and Sustainability from Ann Arbor",
+        "image_license": "CC BY 2.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/2.0"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Perspiration_stain_on_white_cotton_T-shirt.jpg/960px-Perspiration_stain_on_white_cotton_T-shirt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Perspiration_stain_on_white_cotton_T-shirt.jpg",
+        "image_attribution": "Daniel Case",
+        "image_license": "CC BY-SA 3.0",
+        "image_license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    ],
+    "Leather Card Holder": [
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Red_leather_credit_card_holder.jpg/960px-Red_leather_credit_card_holder.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Red_leather_credit_card_holder.jpg",
+        "image_attribution": "Well-Informed Optimist",
+        "image_license": "CC BY-SA 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Black_vertical_credit_card_holder_with_10_pockets_-_A.jpg/960px-Black_vertical_credit_card_holder_with_10_pockets_-_A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Black_vertical_credit_card_holder_with_10_pockets_-_A.jpg",
+        "image_attribution": "Fructibus",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Black_vertical_credit_card_holder_with_10_pockets_-_Ah.jpg/960px-Black_vertical_credit_card_holder_with_10_pockets_-_Ah.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Black_vertical_credit_card_holder_with_10_pockets_-_Ah.jpg",
+        "image_attribution": "Fructibus",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Black_vertical_credit_card_holder_with_10_pockets_-_WBf.jpg/960px-Black_vertical_credit_card_holder_with_10_pockets_-_WBf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Black_vertical_credit_card_holder_with_10_pockets_-_WBf.jpg",
+        "image_attribution": "Fructibus",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    ],
+    "Everyday Crossbody Bag": [
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/HK_TST_%E5%B0%96%E6%B2%99%E5%92%80_Tsim_Sha_Tsui_%E5%BB%A3%E6%9D%B1%E9%81%93_Canton_Road_shop_Emporio_Armani_clothing_store_green_crossbody_bag_October_2022_Px3.jpg/960px-HK_TST_%E5%B0%96%E6%B2%99%E5%92%80_Tsim_Sha_Tsui_%E5%BB%A3%E6%9D%B1%E9%81%93_Canton_Road_shop_Emporio_Armani_clothing_store_green_crossbody_bag_October_2022_Px3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:HK_TST_%E5%B0%96%E6%B2%99%E5%92%80_Tsim_Sha_Tsui_%E5%BB%A3%E6%9D%B1%E9%81%93_Canton_Road_shop_Emporio_Armani_clothing_store_green_crossbody_bag_October_2022_Px3.jpg",
+        "image_attribution": "Fadchwizo Rodawomt",
+        "image_license": "CC BY-SA 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/DKNY_Mini_Flap_Crossbody_W_-_SS_Crossbody_R1513004_Kalbsleder_taupe_%284%29_%2816688909500%29.jpg/960px-DKNY_Mini_Flap_Crossbody_W_-_SS_Crossbody_R1513004_Kalbsleder_taupe_%284%29_%2816688909500%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:DKNY_Mini_Flap_Crossbody_W_-_SS_Crossbody_R1513004_Kalbsleder_taupe_(4)_(16688909500).jpg",
+        "image_attribution": "SPERA.de Designerschuhe, Taschen und Accessoires from Deutschland",
+        "image_license": "CC BY 2.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/2.0"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/DKNY_SM_Flap_Crossbody_W_-_ADJ_Chain_Crossbody_R1513005_Kalbsleder_beige_%281%29_%2816701889051%29.jpg/960px-DKNY_SM_Flap_Crossbody_W_-_ADJ_Chain_Crossbody_R1513005_Kalbsleder_beige_%281%29_%2816701889051%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:DKNY_SM_Flap_Crossbody_W_-_ADJ_Chain_Crossbody_R1513005_Kalbsleder_beige_(1)_(16701889051).jpg",
+        "image_attribution": "SPERA.de Designerschuhe, Taschen und Accessoires from Deutschland",
+        "image_license": "CC BY 2.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/2.0"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/DKNY_Mini_Flap_Crossbody_W_-_SS_Crossbody_R1513004_Kalbsleder_beige_%282%29_%2816701790212%29.jpg/960px-DKNY_Mini_Flap_Crossbody_W_-_SS_Crossbody_R1513004_Kalbsleder_beige_%282%29_%2816701790212%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:DKNY_Mini_Flap_Crossbody_W_-_SS_Crossbody_R1513004_Kalbsleder_beige_(2)_(16701790212).jpg",
+        "image_attribution": "SPERA.de Designerschuhe, Taschen und Accessoires from Deutschland",
+        "image_license": "CC BY 2.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/2.0"
+      }
+    ]
+  },
+  "Kitchen": {
+    "Coffee Maker": [
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Coffee_maker_2024.jpg/960px-Coffee_maker_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Coffee_maker_2024.jpg",
+        "image_attribution": "Roderick Suñaz Sumalinog",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Arabica_coffee_with_coffee_maker.jpg/960px-Arabica_coffee_with_coffee_maker.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Arabica_coffee_with_coffee_maker.jpg",
+        "image_attribution": "Roderick Suñaz Sumalinog",
+        "image_license": "CC BY-SA 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/23_0051855_Convair_Negative_Image_-_Coffee_maker_%2853889641743%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:23_0051855_Convair_Negative_Image_-_Coffee_maker_(53889641743).jpg",
+        "image_attribution": "San Diego Air & Space Museum Archives",
+        "image_license": "Public domain",
+        "image_license_url": ""
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Coffee_maker_Krups.jpg/960px-Coffee_maker_Krups.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Coffee_maker_Krups.jpg",
+        "image_attribution": "Tiia Monto",
+        "image_license": "CC BY-SA 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    ],
+    "Stoneware Dinner Set": [
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Bowl_Emulating_Chinese_Stoneware_MET_DP170381.jpg/960px-Bowl_Emulating_Chinese_Stoneware_MET_DP170381.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Bowl_Emulating_Chinese_Stoneware_MET_DP170381.jpg",
+        "image_attribution": "Wikimedia Commons contributor",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Bowl_Emulating_Chinese_Stoneware_MET_63.159.4.jpg/960px-Bowl_Emulating_Chinese_Stoneware_MET_63.159.4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Bowl_Emulating_Chinese_Stoneware_MET_63.159.4.jpg",
+        "image_attribution": "Wikimedia Commons contributor",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Bowl_Emulating_Chinese_Stoneware_MET_DP170380.jpg/960px-Bowl_Emulating_Chinese_Stoneware_MET_DP170380.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Bowl_Emulating_Chinese_Stoneware_MET_DP170380.jpg",
+        "image_attribution": "Wikimedia Commons contributor",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Bowl_Emulating_Chinese_Stoneware_MET_178338.jpg/960px-Bowl_Emulating_Chinese_Stoneware_MET_178338.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Bowl_Emulating_Chinese_Stoneware_MET_178338.jpg",
+        "image_attribution": "Wikimedia Commons contributor",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    ],
+    "Insulated Travel Mug": [
+      {
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Travel_mug.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Travel_mug.jpg",
+        "image_attribution": "Brugo",
+        "image_license": "CC BY 3.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/3.0"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/16oz_travel_mug.jpg/960px-16oz_travel_mug.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:16oz_travel_mug.jpg",
+        "image_attribution": "Corn cheese",
+        "image_license": "CC BY-SA 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Plastic_travel_mug.jpg/960px-Plastic_travel_mug.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Plastic_travel_mug.jpg",
+        "image_attribution": "Corn cheese",
+        "image_license": "CC BY-SA 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Niksun_plastic_travel_mug.jpg/960px-Niksun_plastic_travel_mug.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Niksun_plastic_travel_mug.jpg",
+        "image_attribution": "Jonathan Schilling",
+        "image_license": "CC BY-SA 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    ],
+    "Chef Knife Set": [
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Steelport_6-Inch_Chef_Knife_%282026%29-104A7331.jpg/960px-Steelport_6-Inch_Chef_Knife_%282026%29-104A7331.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Steelport_6-Inch_Chef_Knife_(2026)-104A7331.jpg",
+        "image_attribution": "Frank Schulenburg",
+        "image_license": "CC BY-SA 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Chef%27s_Knife.jpg/960px-Chef%27s_Knife.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Chef%27s_Knife.jpg",
+        "image_attribution": "Donovan Govan.",
+        "image_license": "CC BY-SA 3.0",
+        "image_license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      {
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Chef%27s_Knife_Vertical.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Chef%27s_Knife_Vertical.jpg",
+        "image_attribution": "derivative work: Manu (talk) Chef's_Knife.jpg: Donovan Govan.",
+        "image_license": "CC BY-SA 3.0",
+        "image_license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      {
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Chef%27s_knife_grip.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Chef%27s_knife_grip.jpg",
+        "image_attribution": "No machine-readable author provided. BenFrantzDale~commonswiki assumed (based on copyright claims).",
+        "image_license": "CC BY-SA 3.0",
+        "image_license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    ],
+    "Cast Iron Skillet": [
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Coffee_is_roasted_in_a_cast_iron_skillet_at_James_Dennis%27_Coffee_in_Section%2C_Portland_Parish%2C_Jamaica._Food_is_being_cooked_alongside_the_coffee.jpg/960px-Coffee_is_roasted_in_a_cast_iron_skillet_at_James_Dennis%27_Coffee_in_Section%2C_Portland_Parish%2C_Jamaica._Food_is_being_cooked_alongside_the_coffee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Coffee_is_roasted_in_a_cast_iron_skillet_at_James_Dennis%27_Coffee_in_Section,_Portland_Parish,_Jamaica._Food_is_being_cooked_alongside_the_coffee.jpg",
+        "image_attribution": "Matthew.kowal",
+        "image_license": "CC BY-SA 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Japanese_spicy_miso_ramen_with_teppanyaki_beef_on_cast_iron_skillet.jpg/960px-Japanese_spicy_miso_ramen_with_teppanyaki_beef_on_cast_iron_skillet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Japanese_spicy_miso_ramen_with_teppanyaki_beef_on_cast_iron_skillet.jpg",
+        "image_attribution": "Wiki.cullin",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Griswold_cast_iron_skillet.jpg/960px-Griswold_cast_iron_skillet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Griswold_cast_iron_skillet.jpg",
+        "image_attribution": "NMorales (WMF)",
+        "image_license": "CC BY-SA 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Griswold-Erie-Cast-Iron-Skillet.png/960px-Griswold-Erie-Cast-Iron-Skillet.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Griswold-Erie-Cast-Iron-Skillet.png",
+        "image_attribution": "E.W. Modemac",
+        "image_license": "CC BY-SA 3.0",
+        "image_license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    ],
+    "Glass Food Storage Set": [
+      {
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Glass_food_storage_container_with_Easy_Find_Lids.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Glass_food_storage_container_with_Easy_Find_Lids.jpg",
+        "image_attribution": "Rubbermaid Products",
+        "image_license": "CC BY 2.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/2.0"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Spreewaldgurke_in_glass_container_2025-02-25_02.jpg/960px-Spreewaldgurke_in_glass_container_2025-02-25_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Spreewaldgurke_in_glass_container_2025-02-25_02.jpg",
+        "image_attribution": "Leonhard Lenz",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Spreewaldgurke_in_glass_container_2025-02-25_05.jpg/960px-Spreewaldgurke_in_glass_container_2025-02-25_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Spreewaldgurke_in_glass_container_2025-02-25_05.jpg",
+        "image_attribution": "Leonhard Lenz",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Spreewaldgurke_in_glass_container_2025-02-25_04.jpg/960px-Spreewaldgurke_in_glass_container_2025-02-25_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Spreewaldgurke_in_glass_container_2025-02-25_04.jpg",
+        "image_attribution": "Leonhard Lenz",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    ],
+    "Electric Milk Frother": [
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Milk_frother_%28258748248%29.jpg/960px-Milk_frother_%28258748248%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Milk_frother_(258748248).jpg",
+        "image_attribution": "Andy / Andrew Fogg from near Cambridge, UK",
+        "image_license": "CC BY 2.0",
+        "image_license_url": "https://creativecommons.org/licenses/by/2.0"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Milk_frother_wand_battery_powered.jpg/960px-Milk_frother_wand_battery_powered.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Milk_frother_wand_battery_powered.jpg",
+        "image_attribution": "Ll1324",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Woman_training_baristas_to_froth_milk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Woman_training_baristas_to_froth_milk.jpg",
+        "image_attribution": "Kim Sammons",
+        "image_license": "Public domain",
+        "image_license_url": ""
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Barista_frothing_milk_for_cappuccino_at_Tabak_shop_in_Esino_Lario.jpg/960px-Barista_frothing_milk_for_cappuccino_at_Tabak_shop_in_Esino_Lario.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Barista_frothing_milk_for_cappuccino_at_Tabak_shop_in_Esino_Lario.jpg",
+        "image_attribution": "Daniel Case",
+        "image_license": "CC BY-SA 3.0",
+        "image_license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    ],
+    "Cotton Kitchen Towel Set": [
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Frotirka%2C_kuhinjska_krpa_%28kitchen_towel%29.jpg/960px-Frotirka%2C_kuhinjska_krpa_%28kitchen_towel%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Frotirka,_kuhinjska_krpa_(kitchen_towel).jpg",
+        "image_attribution": "Petar Milošević",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Home_kitchen_details_June_2023_-_corner_by_kitchen_sink_with_filtered_water_and_towels.jpg/960px-Home_kitchen_details_June_2023_-_corner_by_kitchen_sink_with_filtered_water_and_towels.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Home_kitchen_details_June_2023_-_corner_by_kitchen_sink_with_filtered_water_and_towels.jpg",
+        "image_attribution": "Infrogmation of New Orleans",
+        "image_license": "CC BY-SA 4.0",
+        "image_license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Washed_apples_on_kitchen_towel_drying.jpg/960px-Washed_apples_on_kitchen_towel_drying.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Washed_apples_on_kitchen_towel_drying.jpg",
+        "image_attribution": "Nutrition, Food Safety & Health",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Peach_jam_cooling_on_wooden_cutting_board_covered_with_kitchen_towel.jpg/960px-Peach_jam_cooling_on_wooden_cutting_board_covered_with_kitchen_towel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "image_source_url": "https://commons.wikimedia.org/wiki/File:Peach_jam_cooling_on_wooden_cutting_board_covered_with_kitchen_towel.jpg",
+        "image_attribution": "Nutrition, Food Safety & Health",
+        "image_license": "CC0",
+        "image_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    ]
+  }
+}

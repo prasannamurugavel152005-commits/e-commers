@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/6.1/ref/settings/
 
 from pathlib import Path
 import os
+
+import dj_database_url
 from django.core.exceptions import ImproperlyConfigured
 from dotenv import load_dotenv
 
@@ -28,6 +30,10 @@ SECRET_KEY = os.getenv(
 )
 
 DEBUG = os.getenv("DEBUG", "True").lower() == "true"
+if not DEBUG and SECRET_KEY == "django-insecure-local-development-only":
+    raise ImproperlyConfigured(
+        "DJANGO_SECRET_KEY must be configured when DEBUG is disabled."
+    )
 GOOGLE_CLIENT_ID = os.getenv("GOOGLE_CLIENT_ID", "").strip()
 
 ALLOWED_HOSTS = [
@@ -35,6 +41,9 @@ ALLOWED_HOSTS = [
     for host in os.getenv("ALLOWED_HOSTS", "localhost,127.0.0.1").split(",")
     if host.strip()
 ]
+vercel_host = os.getenv("VERCEL_URL", "").strip()
+if vercel_host and vercel_host not in ALLOWED_HOSTS:
+    ALLOWED_HOSTS.append(vercel_host)
 
 
 # Application definition
@@ -97,7 +106,15 @@ TEMPLATES = [
 WSGI_APPLICATION = 'ecommerce_backend.wsgi.application'
 
 
-DB_ENGINE = os.getenv("DB_ENGINE", "mysql").lower()
+database_url = (
+    os.getenv("DATABASE_URL")
+    or os.getenv("POSTGRES_URL")
+    or os.getenv("DATABASE_POSTGRES_URL")
+)
+DB_ENGINE = os.getenv(
+    "DB_ENGINE",
+    "postgresql" if database_url else "mysql",
+).lower()
 if DB_ENGINE == "mysql":
     DATABASES = {
         "default": {
@@ -110,6 +127,20 @@ if DB_ENGINE == "mysql":
             "OPTIONS": {"charset": "utf8mb4"},
         }
     }
+elif DB_ENGINE in {"postgres", "postgresql"}:
+    if not database_url:
+        raise ImproperlyConfigured(
+            "Set DATABASE_URL, POSTGRES_URL, or DATABASE_POSTGRES_URL when "
+            "DB_ENGINE is PostgreSQL."
+        )
+    DATABASES = {
+        "default": dj_database_url.parse(
+            database_url,
+            conn_max_age=0,
+            ssl_require=True,
+        )
+    }
+    DATABASES["default"]["DISABLE_SERVER_SIDE_CURSORS"] = True
 elif DB_ENGINE == "sqlite":
     DATABASES = {
         "default": {
@@ -119,7 +150,7 @@ elif DB_ENGINE == "sqlite":
     }
 else:
     raise ImproperlyConfigured(
-        "DB_ENGINE must be set to either 'mysql' or 'sqlite'."
+        "DB_ENGINE must be set to 'mysql', 'postgresql', or 'sqlite'."
     )
 
 CORS_ALLOWED_ORIGINS = [

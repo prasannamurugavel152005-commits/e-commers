@@ -1,8 +1,8 @@
 # e-commers — Pexo Market
 
-Pexo Market is a React storefront backed by a Django REST API and MySQL. It
-includes a sample catalog, product search and category filters, customer
-registration, and JWT sign-in.
+Pexo Market is a React storefront backed by a Django REST API and a persistent
+database. It includes a sample catalog, product search and category filters,
+customer registration, and JWT sign-in.
 
 ## Run on Windows
 
@@ -42,7 +42,9 @@ Open `http://127.0.0.1:5173/`. Vite proxies `/api` requests to Django.
 MySQL is used by default. Configure `DB_NAME`, `DB_USER`, `DB_PASSWORD`,
 `DB_HOST`, and `DB_PORT` in `backend/.env`; Django 5.2 supports MySQL 8.0.
 For local development without MySQL, set `DB_ENGINE=sqlite` to use
-`backend/db.sqlite3`.
+`backend/db.sqlite3`. PostgreSQL is also supported through `DATABASE_URL`,
+`POSTGRES_URL`, or `DATABASE_POSTGRES_URL`, which is used for the Vercel
+production database.
 
 ## Customer API
 
@@ -72,15 +74,16 @@ instead of accepting an unverified token.
 
 ## Production deployment
 
-The React app can be deployed from `frontend/` to Vercel with the Vite defaults:
-build command `npm run build` and output directory `dist`. Set
-`VITE_API_URL` to the deployed API base URL, including `/api` (for example,
-`https://api.example.com/api`), and set `VITE_GOOGLE_CLIENT_ID` in the Vercel
-project environment.
+The root `vercel.json` deploys the frontend and Django API together as Vercel
+Services. Requests to `/api/*` go to Django; all other paths go to the React
+app. The backend build command applies migrations and seeds the 128 sample
+products. Connect a persistent PostgreSQL database to the Vercel project so
+it provides `DATABASE_POSTGRES_URL` (Neon is used for the current deployment).
+The local MySQL and SQLite configurations remain available for development.
 
-The Django API must be reachable over HTTPS and use a persistent MySQL database.
-Configure `DB_NAME`, `DB_USER`, `DB_PASSWORD`, `DB_HOST`, `DB_PORT`,
-`DJANGO_SECRET_KEY`, `DEBUG=False`, and `ALLOWED_HOSTS` on the API host. Set
-`CORS_ALLOWED_ORIGINS` to the deployed Vercel origin and set `GOOGLE_CLIENT_ID`
-to the same OAuth client ID. Do not use the local SQLite database or a
-`localhost` database/API URL for production.
+Set `DJANGO_SECRET_KEY`, `DEBUG=False`, `ALLOWED_HOSTS`, and `GOOGLE_CLIENT_ID`
+in the Vercel project environment. Set `VITE_GOOGLE_CLIENT_ID` to the same
+Google OAuth web client ID. Add the deployed Vercel origin to the OAuth
+client's authorized JavaScript origins. The database connection URL is
+provided by the connected database integration; do not commit database
+credentials or local environment files.

@@ -14,6 +14,9 @@ def api_root(_request):
                 "products_compatibility": "/api/products/products/",
                 "register": "/api/accounts/register/",
                 "login": "/api/accounts/login/",
+                "cart": "/api/cart/",
+                "checkout": "/api/orders/checkout/",
+                "orders": "/api/orders/",
             },
         }
     )

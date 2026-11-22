@@ -43,6 +43,17 @@ const money = (amount) =>
     maximumFractionDigits: 0,
   }).format(amount)
 
+const readGuestCart = () => {
+  try {
+    const savedCart = JSON.parse(localStorage.getItem('pexo_guest_cart') || '{}')
+    return savedCart && typeof savedCart === 'object' && !Array.isArray(savedCart)
+      ? savedCart
+      : {}
+  } catch {
+    return {}
+  }
+}
+
 const googleClientId = import.meta.env.VITE_GOOGLE_CLIENT_ID?.trim() || ''
 
 function GoogleSignInButton({ onCredential, onUnavailable }) {
@@ -310,6 +321,133 @@ function AuthPage({ initialMode, onClose, onAuthenticated }) {
   )
 }
 
+function CheckoutDialog({ onClose, onSubmit, submitting, error, total }) {
+  const [form, setForm] = useState({
+    address: '',
+    city: '',
+    state: '',
+    postal_code: '',
+    country: 'India',
+    phone: '',
+  })
+
+  const updateForm = (event) => {
+    setForm((current) => ({ ...current, [event.target.name]: event.target.value }))
+  }
+
+  return (
+    <div className="dialog-overlay" role="presentation" onMouseDown={(event) => {
+      if (event.target === event.currentTarget && !submitting) onClose()
+    }}>
+      <section className="checkout-dialog" role="dialog" aria-modal="true" aria-labelledby="checkout-title">
+        <div className="dialog-heading">
+          <div>
+            <span className="section-kicker">ALMOST YOURS</span>
+            <h2 id="checkout-title">Delivery details</h2>
+          </div>
+          <button type="button" className="drawer-close" onClick={onClose} aria-label="Close checkout">
+            <X size={20} />
+          </button>
+        </div>
+        <form onSubmit={(event) => {
+          event.preventDefault()
+          onSubmit(form)
+        }}>
+          <label>
+            Street address
+            <input autoComplete="street-address" name="address" onChange={updateForm} required value={form.address} />
+          </label>
+          <div className="checkout-form-row">
+            <label>
+              City
+              <input autoComplete="address-level2" name="city" onChange={updateForm} required value={form.city} />
+            </label>
+            <label>
+              State
+              <input autoComplete="address-level1" name="state" onChange={updateForm} required value={form.state} />
+            </label>
+          </div>
+          <div className="checkout-form-row">
+            <label>
+              Postal code
+              <input autoComplete="postal-code" name="postal_code" onChange={updateForm} required value={form.postal_code} />
+            </label>
+            <label>
+              Country
+              <input autoComplete="country-name" name="country" onChange={updateForm} required value={form.country} />
+            </label>
+          </div>
+          <label>
+            Phone
+            <input autoComplete="tel" name="phone" onChange={updateForm} required type="tel" value={form.phone} />
+          </label>
+          {error && <p className="dialog-error" role="alert">{error}</p>}
+          <div className="checkout-total">
+            <span>Order total</span><strong>{money(total)}</strong>
+          </div>
+          <button className="checkout-button" disabled={submitting} type="submit">
+            {submitting ? 'Placing your order...' : 'Place order'} {!submitting && <ArrowRight size={17} />}
+          </button>
+        </form>
+      </section>
+    </div>
+  )
+}
+
+function OrdersDialog({ orders, loading, error, onClose }) {
+  return (
+    <div className="dialog-overlay" role="presentation" onMouseDown={(event) => {
+      if (event.target === event.currentTarget) onClose()
+    }}>
+      <section className="orders-dialog" role="dialog" aria-modal="true" aria-labelledby="orders-title">
+        <div className="dialog-heading">
+          <div>
+            <span className="section-kicker">YOUR ORDER HISTORY</span>
+            <h2 id="orders-title">Your orders</h2>
+          </div>
+          <button type="button" className="drawer-close" onClick={onClose} aria-label="Close orders">
+            <X size={20} />
+          </button>
+        </div>
+        {loading ? (
+          <p className="dialog-message">Loading your orders...</p>
+        ) : error ? (
+          <p className="dialog-error" role="alert">{error}</p>
+        ) : orders.length ? (
+          <div className="orders-list">
+            {orders.map((order) => (
+              <article className="order-card" key={order.id}>
+                <div className="order-card-heading">
+                  <span><strong>Order #{order.id}</strong><small>{new Date(order.created_at).toLocaleDateString('en-IN')}</small></span>
+                  <span className={`order-status order-status-${order.status}`}>{order.status}</span>
+                </div>
+                <ul>
+                  {order.items.map((item) => (
+                    <li key={item.id}>
+                      <span>{item.product_name} × {item.quantity}</span>
+                      <strong>{money(item.line_total)}</strong>
+                    </li>
+                  ))}
+                </ul>
+                <div className="order-card-total"><span>Total</span><strong>{money(order.total_amount)}</strong></div>
+                <p className="order-address">
+                  {order.shipping_address}, {order.shipping_city}, {order.shipping_state} {order.shipping_postal_code}, {order.shipping_country}
+                </p>
+              </article>
+            ))}
+          </div>
+        ) : (
+          <div className="orders-empty">
+            <PackageCheck size={30} />
+            <h3>No orders just yet</h3>
+            <p>Your orders will appear here after you check out.</p>
+          </div>
+        )}
+      </section>
+    </div>
+  )
+}
+
 function App() {
   const [products, setProducts] = useState([])
   const [categories, setCategories] = useState(defaultCategories)
@@ -318,9 +456,21 @@ function App() {
   const [query, setQuery] = useState('')
   const [category, setCategory] = useState('All')
   const [sort, setSort] = useState('featured')
-  const [cart, setCart] = useState({})
+  const [cart, setCart] = useState(readGuestCart)
+  const [cartLineIds, setCartLineIds] = useState({})
+  const [cartLoading, setCartLoading] = useState(
+    Boolean(localStorage.getItem('pexo_access')),
+  )
+  const [cartError, setCartError] = useState('')
   const [favorites, setFavorites] = useState([])
   const [cartOpen, setCartOpen] = useState(false)
+  const [checkoutOpen, setCheckoutOpen] = useState(false)
+  const [checkoutSubmitting, setCheckoutSubmitting] = useState(false)
+  const [checkoutError, setCheckoutError] = useState('')
+  const [ordersOpen, setOrdersOpen] = useState(false)
+  const [orders, setOrders] = useState([])
+  const [ordersLoading, setOrdersLoading] = useState(false)
+  const [ordersError, setOrdersError] = useState('')
   const [mobileNavOpen, setMobileNavOpen] = useState(false)
   const [authMode, setAuthMode] = useState(null)
   const [authUser, setAuthUser] = useState(null)
@@ -371,16 +521,64 @@ function App() {
           if (!active) return
           authStorage.clear()
           setAuthUser(null)
+          setCartLoading(false)
         })
     }
 
-    const clearSession = () => setAuthUser(null)
+    const clearSession = () => {
+      setAuthUser(null)
+      setCart(readGuestCart())
+      setCartLineIds({})
+      setCartLoading(false)
+      setCartError('')
+    }
     window.addEventListener('pexo:session-expired', clearSession)
     return () => {
       active = false
       window.removeEventListener('pexo:session-expired', clearSession)
     }
   }, [])
+
+  useEffect(() => {
+    let active = true
+    if (!authUser?.id) return undefined
+    const guestItems = Object.entries(readGuestCart()).map(([productId, quantity]) => ({
+      product_id: Number(productId),
+      quantity: Number(quantity),
+    }))
+    const cartRequest = guestItems.length
+      ? api.post('/cart/sync/', { items: guestItems })
+      : api.get('/cart/')
+    cartRequest
+      .then(({ data }) => {
+        if (!active) return
+        if (guestItems.length) localStorage.removeItem('pexo_guest_cart')
+        setCart(Object.fromEntries(data.items.map((item) => [item.product.id, item.quantity])))
+        setCartLineIds(Object.fromEntries(data.items.map((item) => [item.product.id, item.id])))
+        setCartError('')
+      })
+      .catch(async (requestError) => {
+        if (!active) return
+        setCartError(requestError.response?.data?.detail || 'Could not load your saved cart.')
+        try {
+          const { data } = await api.get('/cart/')
+          if (!active) return
+          setCart(Object.fromEntries(data.items.map((item) => [item.product.id, item.quantity])))
+          setCartLineIds(Object.fromEntries(data.items.map((item) => [item.product.id, item.id])))
+        } catch (loadError) {
+          if (active) {
+            setCartError(loadError.response?.data?.detail || 'Could not load your saved cart.')
+          }
+        }
+      })
+      .finally(() => {
+        if (active) setCartLoading(false)
+      })
+
+    return () => {
+      active = false
+    }
+  }, [authUser?.id])
 
   const visibleProducts = useMemo(() => {
     const searchTerm = query.trim().toLowerCase()
@@ -414,23 +612,88 @@ function App() {
     0,
   )
 
-  const addToCart = (productId) => {
-    setCart((current) => ({
-      ...current,
-      [productId]: (current[productId] || 0) + 1,
-    }))
+  const addToCart = async (productId) => {
+    setCartError('')
+    if (authUser) {
+      try {
+        const { data } = await api.post('/cart/add/', { product_id: productId, quantity: 1 })
+        setCart(Object.fromEntries(data.items.map((item) => [item.product.id, item.quantity])))
+        setCartLineIds(Object.fromEntries(data.items.map((item) => [item.product.id, item.id])))
+      } catch (requestError) {
+        setCartError(requestError.response?.data?.detail || 'Could not add that item to your cart.')
+      }
+      return
+    }
+    const next = { ...cart, [productId]: (cart[productId] || 0) + 1 }
+    setCart(next)
+    localStorage.setItem('pexo_guest_cart', JSON.stringify(next))
   }
 
-  const changeQuantity = (productId, amount) => {
-    setCart((current) => {
-      const nextQuantity = (current[productId] || 0) + amount
-      if (nextQuantity <= 0) {
-        const nextCart = { ...current }
-        delete nextCart[productId]
-        return nextCart
+  const changeQuantity = async (productId, amount) => {
+    setCartError('')
+    const nextQuantity = (cart[productId] || 0) + amount
+    if (authUser) {
+      const itemId = cartLineIds[productId]
+      if (!itemId) {
+        setCartError('Your saved cart is still loading. Please try again.')
+        return
       }
-      return { ...current, [productId]: nextQuantity }
-    })
+      try {
+        const { data } = nextQuantity <= 0
+          ? await api.delete(`/cart/items/${itemId}/`)
+          : await api.put(`/cart/items/${itemId}/`, { quantity: nextQuantity })
+        setCart(Object.fromEntries(data.items.map((item) => [item.product.id, item.quantity])))
+        setCartLineIds(Object.fromEntries(data.items.map((item) => [item.product.id, item.id])))
+      } catch (requestError) {
+        setCartError(requestError.response?.data?.detail || 'Could not update your cart.')
+      }
+      return
+    }
+    const nextCart = { ...cart }
+    if (nextQuantity <= 0) {
+      delete nextCart[productId]
+    } else {
+      nextCart[productId] = nextQuantity
+    }
+    setCart(nextCart)
+    localStorage.setItem('pexo_guest_cart', JSON.stringify(nextCart))
+  }
+
+  const placeOrder = async (shipping) => {
+    setCheckoutError('')
+    setCheckoutSubmitting(true)
+    try {
+      const { data } = await api.post('/orders/checkout/', shipping)
+      setCart({})
+      setCartLineIds({})
+      setCartOpen(false)
+      setCheckoutOpen(false)
+      setOrders([data, ...orders])
+      setOrdersError('')
+      setOrdersOpen(true)
+    } catch (requestError) {
+      setCheckoutError(requestError.response?.data?.detail || 'Could not place your order. Please try again.')
+    } finally {
+      setCheckoutSubmitting(false)
+    }
+  }
+
+  const showOrders = async () => {
+    if (!authUser) {
+      setAuthMode('login')
+      return
+    }
+    setOrdersOpen(true)
+    setOrdersLoading(true)
+    setOrdersError('')
+    try {
+      const { data } = await api.get('/orders/')
+      setOrders(data)
+    } catch (requestError) {
+      setOrdersError(requestError.response?.data?.detail || 'Could not load your orders.')
+    } finally {
+      setOrdersLoading(false)
+    }
   }
 
   const toggleFavorite = (productId) => {
@@ -450,6 +713,10 @@ function App() {
   const signOut = () => {
     authStorage.clear()
     setAuthUser(null)
+    setCart(readGuestCart())
+    setCartLineIds({})
+    setCartLoading(false)
+    setCartError('')
   }
 
   return (
@@ -514,7 +781,7 @@ function App() {
           <button
             className="orders-button"
             type="button"
-            onClick={() => !authUser && setAuthMode('login')}
+            onClick={showOrders}
           >
             <PackageCheck size={19} />
             <span><small>Your</small><strong>Orders</strong></span>
@@ -894,7 +1161,10 @@ function App() {
               <div><span className="section-kicker">YOUR GOOD FINDS</span><h2 id="cart-title">Your cart <span>({cartCount})</span></h2></div>
               <button type="button" className="drawer-close" onClick={() => setCartOpen(false)} aria-label="Close cart"><X size={20} /></button>
             </div>
-            {cartItems.length ? (
+            {cartError && <p className="cart-error" role="alert">{cartError}</p>}
+            {cartLoading ? (
+              <div className="empty-cart"><p>Loading your saved cart...</p></div>
+            ) : cartItems.length ? (
               <>
                 <div className="cart-items">
                   {cartItems.map((product) => (
@@ -936,8 +1206,22 @@ function App() {
                 <div className="cart-summary">
                   <div className="shipping-message"><Truck size={16} /><span>{subtotal >= 999 ? 'You’ve unlocked free delivery!' : `Add ${money(999 - subtotal)} more for free delivery`}</span></div>
                   <div className="subtotal-row"><span>Subtotal</span><strong>{money(subtotal)}</strong></div>
-                  <p>Taxes and delivery are calculated at checkout.</p>
-                  <button className="checkout-button" type="button">Continue to checkout <ArrowRight size={17} /></button>
+                  <p>Place your order now; online payment is not collected.</p>
+                  <button
+                    className="checkout-button"
+                    type="button"
+                    onClick={() => {
+                      if (!authUser) {
+                        setCartOpen(false)
+                        setAuthMode('login')
+                        return
+                      }
+                      setCheckoutError('')
+                      setCheckoutOpen(true)
+                    }}
+                  >
+                    Continue to checkout <ArrowRight size={17} />
+                  </button>
                   <button className="continue-shopping" type="button" onClick={() => setCartOpen(false)}>Keep finding good stuff</button>
                 </div>
               </>
@@ -956,10 +1240,29 @@ function App() {
         <AuthPage
           initialMode={authMode}
           onAuthenticated={(user) => {
+            setCartLoading(true)
+            setCartError('')
             setAuthUser(user)
             setAuthMode(null)
           }}
           onClose={() => setAuthMode(null)}
+        />
+      )}
+      {checkoutOpen && (
+        <CheckoutDialog
+          error={checkoutError}
+          onClose={() => setCheckoutOpen(false)}
+          onSubmit={placeOrder}
+          submitting={checkoutSubmitting}
+          total={subtotal}
+        />
+      )}
+      {ordersOpen && (
+        <OrdersDialog
+          error={ordersError}
+          loading={ordersLoading}
+          onClose={() => setOrdersOpen(false)}
+          orders={orders}
         />
       )}
     </div>

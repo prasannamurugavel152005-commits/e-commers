@@ -20,6 +20,8 @@ from ecommerce_backend.views import api_root
 from accounts.views import GoogleLoginView, LoginView, ProfileView, RegisterView
 from rest_framework_simplejwt.views import TokenRefreshView
 from products.views import CategoryListView, ProductListView
+from cart.views import CartAddView, CartItemDetailView, CartSyncView, CartView
+from orders.views import CheckoutView, OrderDetailView, OrderListView
 
 urlpatterns = [
     path("", api_root, name="api-root"),
@@ -36,5 +38,20 @@ urlpatterns = [
         "api/products/products/",
         ProductListView.as_view(),
         name="product-list-compatibility",
+    ),
+    path("api/cart/", CartView.as_view(), name="cart"),
+    path("api/cart/add/", CartAddView.as_view(), name="cart-add"),
+    path("api/cart/sync/", CartSyncView.as_view(), name="cart-sync"),
+    path(
+        "api/cart/items/<int:item_id>/",
+        CartItemDetailView.as_view(),
+        name="cart-item-detail",
+    ),
+    path("api/orders/checkout/", CheckoutView.as_view(), name="order-checkout"),
+    path("api/orders/", OrderListView.as_view(), name="order-list"),
+    path(
+        "api/orders/<int:order_id>/",
+        OrderDetailView.as_view(),
+        name="order-detail",
     ),
 ]

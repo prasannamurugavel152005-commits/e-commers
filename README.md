@@ -57,6 +57,19 @@ production database.
   `ordering`
 - `GET /api/products/products/` — compatibility alias for the product list
 - `GET /api/products/categories/` — list categories and product counts
+- `GET /api/cart/` — read the authenticated customer's cart
+- `POST /api/cart/sync/` — merge a saved guest cart into the customer's cart
+- `POST /api/cart/add/` — add `{ "product_id": 1, "quantity": 1 }` to the cart
+- `PUT /api/cart/items/<id>/` and `DELETE /api/cart/items/<id>/` — update or
+  remove an owned cart item
+- `POST /api/orders/checkout/` — atomically check stock, place an order,
+  decrement inventory, and clear the cart
+- `GET /api/orders/` and `GET /api/orders/<id>/` — list or read the customer's
+  own orders (staff can view all orders)
+
+Cart and order endpoints require a valid JWT. Checkout accepts `address`,
+`city`, `state`, `postal_code`, `country`, and `phone`; orders are only created
+when every cart item is in stock.
 
 ## Google sign-in
 
